@@ -1,0 +1,3090 @@
+{
+  "core": {
+    "graph_type": "HeteroData",
+    "node_types": [
+      {
+        "type": "entity",
+        "num_nodes": 20400,
+        "has_x": true,
+        "x_dim": 512,
+        "has_y": false,
+        "num_labels": 0
+      }
+    ],
+    "edge_types": [
+      {
+        "edge_type": [
+          "entity",
+          "instance of",
+          "entity"
+        ],
+        "num_edges": 3233,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "made from material",
+          "entity"
+        ],
+        "num_edges": 1032,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "part of",
+          "entity"
+        ],
+        "num_edges": 459,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "depicts",
+          "entity"
+        ],
+        "num_edges": 564,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "topic's main category",
+          "entity"
+        ],
+        "num_edges": 55,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "illustrator",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "designed by",
+          "entity"
+        ],
+        "num_edges": 26,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "location",
+          "entity"
+        ],
+        "num_edges": 701,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has use",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "country",
+          "entity"
+        ],
+        "num_edges": 566,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "director of photography",
+          "entity"
+        ],
+        "num_edges": 302,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "original language of film or TV show",
+          "entity"
+        ],
+        "num_edges": 734,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "director",
+          "entity"
+        ],
+        "num_edges": 622,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "screenwriter",
+          "entity"
+        ],
+        "num_edges": 575,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "production company",
+          "entity"
+        ],
+        "num_edges": 306,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "cast member",
+          "entity"
+        ],
+        "num_edges": 4918,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "producer",
+          "entity"
+        ],
+        "num_edges": 443,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "country of origin",
+          "entity"
+        ],
+        "num_edges": 1161,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "narrative location",
+          "entity"
+        ],
+        "num_edges": 398,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "genre",
+          "entity"
+        ],
+        "num_edges": 1713,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "filming location",
+          "entity"
+        ],
+        "num_edges": 256,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "film editor",
+          "entity"
+        ],
+        "num_edges": 217,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "composer",
+          "entity"
+        ],
+        "num_edges": 388,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "color",
+          "entity"
+        ],
+        "num_edges": 397,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "distributed by",
+          "entity"
+        ],
+        "num_edges": 575,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "FSK film rating",
+          "entity"
+        ],
+        "num_edges": 157,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "award received",
+          "entity"
+        ],
+        "num_edges": 413,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "Filmiroda rating",
+          "entity"
+        ],
+        "num_edges": 90,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "JMK film rating",
+          "entity"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "MPA film rating",
+          "entity"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "CNC film rating (France)",
+          "entity"
+        ],
+        "num_edges": 159,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "Medier\u00e5det rating",
+          "entity"
+        ],
+        "num_edges": 80,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "CNC film rating (Romania)",
+          "entity"
+        ],
+        "num_edges": 20,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "nominated for",
+          "entity"
+        ],
+        "num_edges": 407,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "RTC film rating",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "ICAA rating",
+          "entity"
+        ],
+        "num_edges": 22,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "participant in",
+          "entity"
+        ],
+        "num_edges": 13,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "BBFC rating",
+          "entity"
+        ],
+        "num_edges": 16,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "costume designer",
+          "entity"
+        ],
+        "num_edges": 72,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "distribution format",
+          "entity"
+        ],
+        "num_edges": 645,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "assessment",
+          "entity"
+        ],
+        "num_edges": 187,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "sound designer",
+          "entity"
+        ],
+        "num_edges": 21,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "after a work by",
+          "entity"
+        ],
+        "num_edges": 38,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "different from",
+          "entity"
+        ],
+        "num_edges": 250,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "EIRIN film rating",
+          "entity"
+        ],
+        "num_edges": 42,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "Kijkwijzer rating",
+          "entity"
+        ],
+        "num_edges": 130,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "performer",
+          "entity"
+        ],
+        "num_edges": 461,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "record label",
+          "entity"
+        ],
+        "num_edges": 156,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "follows",
+          "entity"
+        ],
+        "num_edges": 352,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "followed by",
+          "entity"
+        ],
+        "num_edges": 372,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "based on",
+          "entity"
+        ],
+        "num_edges": 359,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "main subject",
+          "entity"
+        ],
+        "num_edges": 533,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has characteristic",
+          "entity"
+        ],
+        "num_edges": 280,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "significant event",
+          "entity"
+        ],
+        "num_edges": 14,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "author",
+          "entity"
+        ],
+        "num_edges": 376,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "NMHH film rating",
+          "entity"
+        ],
+        "num_edges": 16,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "set in environment",
+          "entity"
+        ],
+        "num_edges": 50,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "collection",
+          "entity"
+        ],
+        "num_edges": 708,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "exhibition history",
+          "entity"
+        ],
+        "num_edges": 46,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "language of work or name",
+          "entity"
+        ],
+        "num_edges": 666,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "location of discovery",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "catalog",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "fabrication method",
+          "entity"
+        ],
+        "num_edges": 15,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "writing system",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "described by source",
+          "entity"
+        ],
+        "num_edges": 297,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "on focus list of Wikimedia project",
+          "entity"
+        ],
+        "num_edges": 58,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "tracklist",
+          "entity"
+        ],
+        "num_edges": 134,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "part of the series",
+          "entity"
+        ],
+        "num_edges": 223,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "season",
+          "entity"
+        ],
+        "num_edges": 73,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "original broadcaster",
+          "entity"
+        ],
+        "num_edges": 65,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "mouth of the watercourse",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "located in the administrative territorial entity",
+          "entity"
+        ],
+        "num_edges": 521,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "heritage designation",
+          "entity"
+        ],
+        "num_edges": 66,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "publisher",
+          "entity"
+        ],
+        "num_edges": 176,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "characters",
+          "entity"
+        ],
+        "num_edges": 620,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "form of creative work",
+          "entity"
+        ],
+        "num_edges": 270,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "derivative work",
+          "entity"
+        ],
+        "num_edges": 304,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "copyright status",
+          "entity"
+        ],
+        "num_edges": 398,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "translator",
+          "entity"
+        ],
+        "num_edges": 36,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has edition or translation",
+          "entity"
+        ],
+        "num_edges": 493,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "named after",
+          "entity"
+        ],
+        "num_edges": 72,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "list of characters",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "list of episodes",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "topic has template",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has spin-off",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "time period",
+          "entity"
+        ],
+        "num_edges": 31,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "culture",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has part(s)",
+          "entity"
+        ],
+        "num_edges": 540,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "make-up artist",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "production manager",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "storyboard artist",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "film crew member",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "published in",
+          "entity"
+        ],
+        "num_edges": 333,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "contributor to the creative work or subject",
+          "entity"
+        ],
+        "num_edges": 35,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "narrative motif",
+          "entity"
+        ],
+        "num_edges": 33,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "manifestation of",
+          "entity"
+        ],
+        "num_edges": 16,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "creator",
+          "entity"
+        ],
+        "num_edges": 614,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "located on street",
+          "entity"
+        ],
+        "num_edges": 45,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "intended public",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "movement",
+          "entity"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "production designer",
+          "entity"
+        ],
+        "num_edges": 66,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "original film format",
+          "entity"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "soundtrack release",
+          "entity"
+        ],
+        "num_edges": 49,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "set in period",
+          "entity"
+        ],
+        "num_edges": 47,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "IGAC rating",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "influenced by",
+          "entity"
+        ],
+        "num_edges": 15,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "architect",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "inspired by",
+          "entity"
+        ],
+        "num_edges": 41,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "facet of",
+          "entity"
+        ],
+        "num_edges": 13,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "takes place in fictional universe",
+          "entity"
+        ],
+        "num_edges": 43,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "place of publication",
+          "entity"
+        ],
+        "num_edges": 40,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "uses",
+          "entity"
+        ],
+        "num_edges": 18,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "developer",
+          "entity"
+        ],
+        "num_edges": 92,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "game mode",
+          "entity"
+        ],
+        "num_edges": 117,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "PEGI rating",
+          "entity"
+        ],
+        "num_edges": 33,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "USK rating",
+          "entity"
+        ],
+        "num_edges": 27,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "platform",
+          "entity"
+        ],
+        "num_edges": 338,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "software engine",
+          "entity"
+        ],
+        "num_edges": 19,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "ESRB rating",
+          "entity"
+        ],
+        "num_edges": 38,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "CERO rating",
+          "entity"
+        ],
+        "num_edges": 13,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "input device",
+          "entity"
+        ],
+        "num_edges": 64,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "copyright license",
+          "entity"
+        ],
+        "num_edges": 11,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "OFLC classification",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "set during recurring event",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "Australian Classification",
+          "entity"
+        ],
+        "num_edges": 26,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "game mechanics",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "voice actor",
+          "entity"
+        ],
+        "num_edges": 105,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "ClassInd rating",
+          "entity"
+        ],
+        "num_edges": 26,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has part(s) of the class",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "CCC classification",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "SMECCV classification",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "GRAC rating",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "GSRR rating",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "RARS rating",
+          "entity"
+        ],
+        "num_edges": 14,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "official app",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "compatible with",
+          "entity"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "day of regular release",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "executive producer",
+          "entity"
+        ],
+        "num_edges": 37,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "media franchise",
+          "entity"
+        ],
+        "num_edges": 34,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "art director",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "lyricist",
+          "entity"
+        ],
+        "num_edges": 50,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "aspect ratio (W - H)",
+          "entity"
+        ],
+        "num_edges": 62,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "Hong Kong film rating",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "IFCO rating",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "IMDA rating",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "RCQ classification",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "BAMID film rating",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "\u200eLSF rating",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "religion or worldview",
+          "entity"
+        ],
+        "num_edges": 21,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "commissioned by",
+          "entity"
+        ],
+        "num_edges": 20,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "state of transmission",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "owned by",
+          "entity"
+        ],
+        "num_edges": 72,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "winner",
+          "entity"
+        ],
+        "num_edges": 285,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "category for recipients of this award",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "conferred by",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "sponsor",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "editor",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "maintained by",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "replaces",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "sport",
+          "entity"
+        ],
+        "num_edges": 18,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "cover art by",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "permanent duplicated item",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "said to be the same as",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "programmer",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "game artist",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "operating system",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "destination point",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "architectural style",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "affiliation",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "state of conservation",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "located in/on physical feature",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "theme music",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "subclass of",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "World Heritage criteria",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "next higher rank",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "next lower rank",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "location of creation",
+          "entity"
+        ],
+        "num_edges": 93,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "category for the interior of the item",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "contains",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "INCAA film rating",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "KMRB film rating",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "FPB rating",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "CHVRS Classification",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "copyright holder",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "depicted by",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "commemorates",
+          "entity"
+        ],
+        "num_edges": 35,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "tonality",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "charted in",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "scenographer",
+          "entity"
+        ],
+        "num_edges": 19,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "archives at",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "adjacent building",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "located in or next to body of water",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "legal form",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "founded by",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "dedicated to",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "dedicated heritage entity",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "category for the exterior of the item",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "location of first performance",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "narrator",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "references work, tradition or theory",
+          "entity"
+        ],
+        "num_edges": 115,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "addressee",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "letterer",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "plot expanded in",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has list",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "location of formation",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "business model",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "funder",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "choreographer",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "instrumentation",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "CPU",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "App Store age rating",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "twinned administrative body",
+          "entity"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "category of associated people",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "operator",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "recorded at studio or venue",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "exemplar of",
+          "entity"
+        ],
+        "num_edges": 15,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "appears in the heritage monument list",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "research project that contributed to this data set",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "CBFC rating",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "character designer",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "located in time zone",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "state of use",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "debut participant",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "work location",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "religious order",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "diocese",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "Christian liturgical rite",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "librettist",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "programmed in",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "ELSPA rating",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "headquarters location",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "translation of",
+          "entity"
+        ],
+        "num_edges": 12,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "edition or translation of",
+          "entity"
+        ],
+        "num_edges": 187,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "applies to jurisdiction",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "place served by transport hub",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "continent",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "KAVI rating",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "discoverer or inventor",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "recording or performance of",
+          "entity"
+        ],
+        "num_edges": 95,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "associated cadastral district",
+          "entity"
+        ],
+        "num_edges": 374,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "director / manager",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "lighting designer",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "cites work",
+          "entity"
+        ],
+        "num_edges": 57,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "online access status",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "thesis submitted to",
+          "entity"
+        ],
+        "num_edges": 186,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "depicted format",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "assistant director",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "presenter",
+          "entity"
+        ],
+        "num_edges": 19,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "talk show guest",
+          "entity"
+        ],
+        "num_edges": 48,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has melody",
+          "entity"
+        ],
+        "num_edges": 27,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "MTRCB rating",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "partially coincident with",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "author of foreword",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "thesis committee member",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "describes a project that uses",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "donated by",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "broadcast by",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "located in the religious territorial entity",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "study or design for",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "manufacturer",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "is recto of",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "quotes work",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "historic county",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "replaced by",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "advertises",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "present in work",
+          "entity"
+        ],
+        "num_edges": 606,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "notable work",
+          "entity"
+        ],
+        "num_edges": 94,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "owner of",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has lyrics",
+          "entity"
+        ],
+        "num_edges": 11,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "category combines topics",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "field of work",
+          "entity"
+        ],
+        "num_edges": 62,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "release of",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "category's main topic",
+          "entity"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "first appearance",
+          "entity"
+        ],
+        "num_edges": 86,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "representation of",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "participated in conflict",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "place of burial",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "music created for",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "academic thesis",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "interested in",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "place of birth",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "official podcast",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "outflows",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "model item",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "place of death",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "fictional universe described in",
+          "entity"
+        ],
+        "num_edges": 17,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "supplement to",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "list of works",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "contributed to creative work",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "is verso of",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "modified version of",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "residence",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "template has topic",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "featured track(s)",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "sports discipline competed in",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "mod of",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "political ideology",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "tributary",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "parent",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "used by",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "significant place",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "product or material produced",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "has seal, badge, or sigil",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "foundational text",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "main regulatory text",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "operating area",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      },
+      {
+        "edge_type": [
+          "entity",
+          "is the study of",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": true,
+        "edge_attr_dim": 384
+      }
+    ]
+  },
+  "top_level": {
+    "raw_type": "HeteroData"
+  }
+}
