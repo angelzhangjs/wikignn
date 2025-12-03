@@ -1,0 +1,4148 @@
+{
+  "core": {
+    "graph_type": "HeteroData",
+    "node_types": [
+      {
+        "type": "entity",
+        "num_nodes": 20400,
+        "has_x": false,
+        "x_dim": null,
+        "has_y": false,
+        "num_labels": 0
+      },
+      {
+        "type": "literal",
+        "num_nodes": 5814,
+        "has_x": false,
+        "x_dim": null,
+        "has_y": false,
+        "num_labels": 0
+      }
+    ],
+    "edge_types": [
+      {
+        "edge_type": [
+          "entity",
+          "P31",
+          "entity"
+        ],
+        "num_edges": 3234,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P186",
+          "entity"
+        ],
+        "num_edges": 1033,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P361",
+          "entity"
+        ],
+        "num_edges": 459,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P180",
+          "entity"
+        ],
+        "num_edges": 564,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P910",
+          "entity"
+        ],
+        "num_edges": 55,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P110",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P287",
+          "entity"
+        ],
+        "num_edges": 26,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P276",
+          "entity"
+        ],
+        "num_edges": 701,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P366",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P17",
+          "entity"
+        ],
+        "num_edges": 566,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P344",
+          "entity"
+        ],
+        "num_edges": 302,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P364",
+          "entity"
+        ],
+        "num_edges": 734,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P57",
+          "entity"
+        ],
+        "num_edges": 622,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P58",
+          "entity"
+        ],
+        "num_edges": 575,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P272",
+          "entity"
+        ],
+        "num_edges": 306,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P161",
+          "entity"
+        ],
+        "num_edges": 4918,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P162",
+          "entity"
+        ],
+        "num_edges": 443,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P495",
+          "entity"
+        ],
+        "num_edges": 1161,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P840",
+          "entity"
+        ],
+        "num_edges": 398,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P136",
+          "entity"
+        ],
+        "num_edges": 1713,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P915",
+          "entity"
+        ],
+        "num_edges": 256,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1040",
+          "entity"
+        ],
+        "num_edges": 217,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P86",
+          "entity"
+        ],
+        "num_edges": 388,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P462",
+          "entity"
+        ],
+        "num_edges": 397,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P750",
+          "entity"
+        ],
+        "num_edges": 575,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1981",
+          "entity"
+        ],
+        "num_edges": 157,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P166",
+          "entity"
+        ],
+        "num_edges": 418,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2747",
+          "entity"
+        ],
+        "num_edges": 91,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3650",
+          "entity"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1657",
+          "entity"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2758",
+          "entity"
+        ],
+        "num_edges": 159,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5970",
+          "entity"
+        ],
+        "num_edges": 80,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3402",
+          "entity"
+        ],
+        "num_edges": 22,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1411",
+          "entity"
+        ],
+        "num_edges": 419,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3834",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3306",
+          "entity"
+        ],
+        "num_edges": 22,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1344",
+          "entity"
+        ],
+        "num_edges": 13,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2629",
+          "entity"
+        ],
+        "num_edges": 20,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2515",
+          "entity"
+        ],
+        "num_edges": 72,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P437",
+          "entity"
+        ],
+        "num_edges": 646,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5021",
+          "entity"
+        ],
+        "num_edges": 188,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5028",
+          "entity"
+        ],
+        "num_edges": 21,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1877",
+          "entity"
+        ],
+        "num_edges": 38,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1889",
+          "entity"
+        ],
+        "num_edges": 252,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2756",
+          "entity"
+        ],
+        "num_edges": 45,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2684",
+          "entity"
+        ],
+        "num_edges": 132,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P175",
+          "entity"
+        ],
+        "num_edges": 462,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P264",
+          "entity"
+        ],
+        "num_edges": 156,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P155",
+          "entity"
+        ],
+        "num_edges": 363,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P156",
+          "entity"
+        ],
+        "num_edges": 383,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P144",
+          "entity"
+        ],
+        "num_edges": 364,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P921",
+          "entity"
+        ],
+        "num_edges": 533,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1552",
+          "entity"
+        ],
+        "num_edges": 280,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P793",
+          "entity"
+        ],
+        "num_edges": 16,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P50",
+          "entity"
+        ],
+        "num_edges": 376,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2363",
+          "entity"
+        ],
+        "num_edges": 17,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8411",
+          "entity"
+        ],
+        "num_edges": 50,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P195",
+          "entity"
+        ],
+        "num_edges": 708,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P608",
+          "entity"
+        ],
+        "num_edges": 46,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P407",
+          "entity"
+        ],
+        "num_edges": 667,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P189",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P972",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2079",
+          "entity"
+        ],
+        "num_edges": 15,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P282",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1343",
+          "entity"
+        ],
+        "num_edges": 298,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5008",
+          "entity"
+        ],
+        "num_edges": 58,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P658",
+          "entity"
+        ],
+        "num_edges": 135,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P179",
+          "entity"
+        ],
+        "num_edges": 224,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4908",
+          "entity"
+        ],
+        "num_edges": 73,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P449",
+          "entity"
+        ],
+        "num_edges": 65,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P403",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P131",
+          "entity"
+        ],
+        "num_edges": 521,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1435",
+          "entity"
+        ],
+        "num_edges": 69,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P123",
+          "entity"
+        ],
+        "num_edges": 176,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P674",
+          "entity"
+        ],
+        "num_edges": 620,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7937",
+          "entity"
+        ],
+        "num_edges": 270,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4969",
+          "entity"
+        ],
+        "num_edges": 307,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6216",
+          "entity"
+        ],
+        "num_edges": 426,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P655",
+          "entity"
+        ],
+        "num_edges": 36,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P747",
+          "entity"
+        ],
+        "num_edges": 494,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P138",
+          "entity"
+        ],
+        "num_edges": 72,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1881",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1811",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1424",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2512",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2348",
+          "entity"
+        ],
+        "num_edges": 31,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2596",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P527",
+          "entity"
+        ],
+        "num_edges": 543,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4805",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P12324",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3275",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3092",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1433",
+          "entity"
+        ],
+        "num_edges": 335,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P767",
+          "entity"
+        ],
+        "num_edges": 35,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6962",
+          "entity"
+        ],
+        "num_edges": 33,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1557",
+          "entity"
+        ],
+        "num_edges": 18,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P170",
+          "entity"
+        ],
+        "num_edges": 615,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P669",
+          "entity"
+        ],
+        "num_edges": 45,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2360",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P135",
+          "entity"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2554",
+          "entity"
+        ],
+        "num_edges": 66,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3803",
+          "entity"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P406",
+          "entity"
+        ],
+        "num_edges": 50,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2408",
+          "entity"
+        ],
+        "num_edges": 47,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5150",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P737",
+          "entity"
+        ],
+        "num_edges": 15,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P84",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P941",
+          "entity"
+        ],
+        "num_edges": 41,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1269",
+          "entity"
+        ],
+        "num_edges": 13,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1434",
+          "entity"
+        ],
+        "num_edges": 43,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P291",
+          "entity"
+        ],
+        "num_edges": 40,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2283",
+          "entity"
+        ],
+        "num_edges": 18,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P178",
+          "entity"
+        ],
+        "num_edges": 92,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P404",
+          "entity"
+        ],
+        "num_edges": 117,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P908",
+          "entity"
+        ],
+        "num_edges": 33,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P914",
+          "entity"
+        ],
+        "num_edges": 31,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P400",
+          "entity"
+        ],
+        "num_edges": 339,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P408",
+          "entity"
+        ],
+        "num_edges": 19,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P852",
+          "entity"
+        ],
+        "num_edges": 40,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P853",
+          "entity"
+        ],
+        "num_edges": 13,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P479",
+          "entity"
+        ],
+        "num_edges": 64,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P275",
+          "entity"
+        ],
+        "num_edges": 11,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7327",
+          "entity"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9215",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3156",
+          "entity"
+        ],
+        "num_edges": 34,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4151",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P725",
+          "entity"
+        ],
+        "num_edges": 105,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3216",
+          "entity"
+        ],
+        "num_edges": 26,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2670",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9028",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9895",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9866",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P916",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2637",
+          "entity"
+        ],
+        "num_edges": 14,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4290",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8956",
+          "entity"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6437",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1431",
+          "entity"
+        ],
+        "num_edges": 37,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8345",
+          "entity"
+        ],
+        "num_edges": 34,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3174",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P676",
+          "entity"
+        ],
+        "num_edges": 50,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2061",
+          "entity"
+        ],
+        "num_edges": 62,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8874",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7573",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5201",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6658",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9086",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P13773",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P140",
+          "entity"
+        ],
+        "num_edges": 21,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P88",
+          "entity"
+        ],
+        "num_edges": 20,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P12020",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P127",
+          "entity"
+        ],
+        "num_edges": 74,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1346",
+          "entity"
+        ],
+        "num_edges": 292,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2517",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1027",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P859",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P98",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P126",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1365",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P641",
+          "entity"
+        ],
+        "num_edges": 18,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P736",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2959",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P460",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P943",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3080",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P306",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1444",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P149",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1416",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5816",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P706",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P942",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P279",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2614",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3730",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3729",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1071",
+          "entity"
+        ],
+        "num_edges": 93,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7561",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4330",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3428",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3818",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4437",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6657",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3931",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1299",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P547",
+          "entity"
+        ],
+        "num_edges": 35,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P826",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2291",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4608",
+          "entity"
+        ],
+        "num_edges": 19,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P485",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3032",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P206",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1454",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P112",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P825",
+          "entity"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8786",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8596",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4647",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2438",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8371",
+          "entity"
+        ],
+        "num_edges": 117,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1817",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9191",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5940",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2354",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P740",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7936",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8324",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1809",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P870",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P880",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9897",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P190",
+          "entity"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1792",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P137",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P483",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1574",
+          "entity"
+        ],
+        "num_edges": 15,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2817",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P13459",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6452",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8670",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P421",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5817",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2318",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P937",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P611",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P708",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3501",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P87",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P277",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8901",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P159",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9745",
+          "entity"
+        ],
+        "num_edges": 12,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P629",
+          "entity"
+        ],
+        "num_edges": 187,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1001",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P931",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P30",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5152",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P61",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2550",
+          "entity"
+        ],
+        "num_edges": 95,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P10254",
+          "entity"
+        ],
+        "num_edges": 374,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1037",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5026",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2860",
+          "entity"
+        ],
+        "num_edges": 57,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6954",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4101",
+          "entity"
+        ],
+        "num_edges": 186,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7984",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5126",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P371",
+          "entity"
+        ],
+        "num_edges": 19,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5030",
+          "entity"
+        ],
+        "num_edges": 48,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1625",
+          "entity"
+        ],
+        "num_edges": 27,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8889",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1382",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2679",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9161",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4510",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1028",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3301",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5607",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6606",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P176",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2681",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6166",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7959",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1366",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6291",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1441",
+          "entity"
+        ],
+        "num_edges": 611,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P800",
+          "entity"
+        ],
+        "num_edges": 94,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1830",
+          "entity"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6439",
+          "entity"
+        ],
+        "num_edges": 11,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P971",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P101",
+          "entity"
+        ],
+        "num_edges": 62,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9831",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P301",
+          "entity"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4584",
+          "entity"
+        ],
+        "num_edges": 86,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4646",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P607",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P119",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9899",
+          "entity"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1026",
+          "entity"
+        ],
+        "num_edges": 10,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2650",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P19",
+          "entity"
+        ],
+        "num_edges": 7,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9549",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P201",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5869",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P20",
+          "entity"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1445",
+          "entity"
+        ],
+        "num_edges": 17,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9234",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1455",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3919",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2682",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5059",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P551",
+          "entity"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1423",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P10664",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2416",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7075",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1142",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P974",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8810",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1535",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7153",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1056",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P418",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P457",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P92",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2541",
+          "entity"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2578",
+          "entity"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P373",
+          "literal"
+        ],
+        "num_edges": 274,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P935",
+          "literal"
+        ],
+        "num_edges": 12,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1114",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2049",
+          "literal"
+        ],
+        "num_edges": 426,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2048",
+          "literal"
+        ],
+        "num_edges": 375,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2610",
+          "literal"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P4511",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2067",
+          "literal"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P571",
+          "literal"
+        ],
+        "num_edges": 675,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1476",
+          "literal"
+        ],
+        "num_edges": 802,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P577",
+          "literal"
+        ],
+        "num_edges": 1870,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P856",
+          "literal"
+        ],
+        "num_edges": 159,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2047",
+          "literal"
+        ],
+        "num_edges": 645,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2130",
+          "literal"
+        ],
+        "num_edges": 51,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P444",
+          "literal"
+        ],
+        "num_edges": 479,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2142",
+          "literal"
+        ],
+        "num_edges": 84,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P575",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P217",
+          "literal"
+        ],
+        "num_edges": 575,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P528",
+          "literal"
+        ],
+        "num_edges": 122,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3903",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P973",
+          "literal"
+        ],
+        "num_edges": 461,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2364",
+          "literal"
+        ],
+        "num_edges": 28,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1922",
+          "literal"
+        ],
+        "num_edges": 12,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2635",
+          "literal"
+        ],
+        "num_edges": 12,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1249",
+          "literal"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1482",
+          "literal"
+        ],
+        "num_edges": 16,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2540",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P953",
+          "literal"
+        ],
+        "num_edges": 33,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2769",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1619",
+          "literal"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3132",
+          "literal"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7150",
+          "literal"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P10135",
+          "literal"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P348",
+          "literal"
+        ],
+        "num_edges": 11,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P3575",
+          "literal"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6949",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8687",
+          "literal"
+        ],
+        "num_edges": 46,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2572",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2284",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P11556",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2664",
+          "literal"
+        ],
+        "num_edges": 25,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P580",
+          "literal"
+        ],
+        "num_edges": 11,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P585",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1257",
+          "literal"
+        ],
+        "num_edges": 143,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1705",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2121",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7707",
+          "literal"
+        ],
+        "num_edges": 15,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8703",
+          "literal"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1813",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P576",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1104",
+          "literal"
+        ],
+        "num_edges": 12,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1680",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1661",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1725",
+          "literal"
+        ],
+        "num_edges": 6,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8359",
+          "literal"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1638",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P9989",
+          "literal"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1110",
+          "literal"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1612",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1581",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1191",
+          "literal"
+        ],
+        "num_edges": 29,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P792",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1113",
+          "literal"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1319",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1448",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2044",
+          "literal"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1082",
+          "literal"
+        ],
+        "num_edges": 70,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2046",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1872",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1873",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2093",
+          "literal"
+        ],
+        "num_edges": 174,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P8360",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P6108",
+          "literal"
+        ],
+        "num_edges": 13,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P304",
+          "literal"
+        ],
+        "num_edges": 3,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1957",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P281",
+          "literal"
+        ],
+        "num_edges": 30,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2913",
+          "literal"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1325",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P433",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P478",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P582",
+          "literal"
+        ],
+        "num_edges": 9,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2043",
+          "literal"
+        ],
+        "num_edges": 53,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7705",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P7294",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2386",
+          "literal"
+        ],
+        "num_edges": 8,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5524",
+          "literal"
+        ],
+        "num_edges": 15,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1019",
+          "literal"
+        ],
+        "num_edges": 5,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P10286",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2699",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P5436",
+          "literal"
+        ],
+        "num_edges": 20,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P12203",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2896",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P2437",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1684",
+          "literal"
+        ],
+        "num_edges": 2,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1752",
+          "literal"
+        ],
+        "num_edges": 4,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P613",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P238",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P239",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P529",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      },
+      {
+        "edge_type": [
+          "entity",
+          "P1451",
+          "literal"
+        ],
+        "num_edges": 1,
+        "has_edge_attr": false,
+        "edge_attr_dim": null
+      }
+    ]
+  },
+  "top_level": {
+    "node_index": {
+      "shape": "type=dict"
+    },
+    "edge_index": {
+      "shape": "type=dict"
+    },
+    "clip_text_node_emb_en": {
+      "shape": "(20400, 512)",
+      "embedding_dim": 512
+    },
+    "clip_text_edge_mean_emb_en": {
+      "shape": "type=dict"
+    },
+    "clip_text_rel_emb_en_by_pid": {
+      "type": "dict",
+      "num_items": 407,
+      "sample_value_shape": "(512,)",
+      "embedding_dim_values_seen": [
+        512
+      ]
+    },
+    "clip_meta": {
+      "type": "dict",
+      "keys": [
+        "text_model"
+      ]
+    },
+    "pyg_data": {
+      "shape": "type=HeteroData"
+    },
+    "all_keys": [
+      "node_index",
+      "edge_index",
+      "edge_claim_ids",
+      "qualifiers_by_claim_id",
+      "meta",
+      "pyg_data",
+      "property_labels_en",
+      "relation_labels_en",
+      "entity_labels_en",
+      "entity_descriptions_en",
+      "entity_aliases_en",
+      "entity_text_en_by_index",
+      "edge_index_label_en",
+      "edge_claim_ids_label_en",
+      "edge_text_pairs_label_en",
+      "clip_text_node_emb_en",
+      "clip_text_rel_emb_en_by_pid",
+      "clip_text_edge_mean_emb_en",
+      "clip_meta"
+    ]
+  }
+}

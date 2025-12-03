@@ -13,11 +13,21 @@ from typing import Dict, List
 
 import torch
 
-from utils.wikidata_labels import (
-    fetch_property_labels,
-    normalize_property_ids,
-    save_json,
-)
+# Robust import: allow running from repo root or the script directory
+try:
+    from utils.wikidata_labels import (
+        fetch_property_labels,
+        normalize_property_ids,
+        save_json,
+    )
+except ModuleNotFoundError:
+    import os, sys
+    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+    from utils.wikidata_labels import (
+        fetch_property_labels,
+        normalize_property_ids,
+        save_json,
+    )
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Fetch Wikidata property labels to JSON")
@@ -32,7 +42,6 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--entity_meta", default="", help="Path to entity_metadata_{lang}.pt (for entity text)")
     ap.add_argument("--edge_text_max", type=int, default=1000, help="Max text pairs stored per labeled relation")
     return ap.parse_args()
-
 
 def collect_pids_from_pt(path: str) -> List[str]:
     p = torch.load(path, map_location="cpu")
