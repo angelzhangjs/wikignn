@@ -55,7 +55,6 @@ def set_seed(seed: int):
     random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
-
 class HeteroEdgePromptPlus(nn.Module):
     """
     EdgePrompt for heterogeneous graphs:
@@ -122,7 +121,6 @@ class HeteroEdgePromptPlus(nn.Module):
             prompt = b @ self.anchor_prompt[key]  # [E, d]
             edge_attr_dict[et] = prompt
         return edge_attr_dict
-
 class TextEncoder(nn.Module):
     def __init__(self, backend: str, sbert_model: str, clip_model: str, out_dim: int, finetune_text: bool = False):
         super().__init__()
@@ -156,7 +154,6 @@ class TextEncoder(nn.Module):
             for p in self.model.parameters():
                 p.requires_grad = False
 
-
     def forward(self, queries: list[str]) -> torch.Tensor:
         if self.backend == "sbert":
             # SentenceTransformer handles device internally; returns CPU tensor if convert_to_tensor=True
@@ -171,7 +168,6 @@ class TextEncoder(nn.Module):
         # Ensure 't' is a regular tensor (not an inference-mode tensor) so autograd can save it for backward
         t = t.clone()
         return F.normalize(self.proj(t), dim=-1)
-
 class HeteroSubgraphEncoder(nn.Module):
     """
     Hetero GNN that consumes node features x and edge_attr, and outputs a pooled subgraph embedding.
@@ -181,9 +177,10 @@ class HeteroSubgraphEncoder(nn.Module):
     def __init__(self, out_dim: int, dropout: float = 0.1,
                  use_edge_prompt: bool = False, edge_prompt_dim: int = 256, edge_prompt_anchors: int = 32,
                  predefined_edge_types: Tuple[Tuple[str, str, str], ...] | None = None,
-                 predefined_node_dims: Dict[str, int] | None = None):
+                 predefined_node_dims: Dict[str, int] | None = None,
+                 num_layers: int = 3):
         super().__init__()
-        self.convs = HeteroConv({})
+        self.layers = nn.ModuleList([])
         self.out_dim = out_dim
         self.dropout = nn.Dropout(p=dropout)
         # create a small projection head after pooling
@@ -202,6 +199,7 @@ class HeteroSubgraphEncoder(nn.Module):
         self.edge_prompt_dim = edge_prompt_dim
         self.edge_prompt_anchors = edge_prompt_anchors
         self.edge_prompt_module: HeteroEdgePromptPlus | None = None
+        self.num_layers = max(1, int(num_layers))
 
     def _build_layers(self, batch: Batch):
         # Infer per-node-type input dims and shared edge_dim from batch (or predefined)
@@ -227,33 +225,43 @@ class HeteroSubgraphEncoder(nn.Module):
                     break
             if self._edge_dim is None:
                 raise ValueError("No edge_attr found in batch; required for TransformerConv(edge_dim=...).")
-        # Create a fresh HeteroConv with per-relation TransformerConv modules.
+        # Create a stack of HeteroConv layers with per-relation TransformerConv modules.
         # If predefined relations are provided, instantiate for the full union to enable strict weight loading.
         edge_types_for_convs = self._predefined_edge_types or batch.edge_types
-        convs: Dict[Tuple[str, str, str], nn.Module] = {}
-        for et in edge_types_for_convs:
-            src_t, _, dst_t = et
-            convs[et] = TransformerConv(
-                (self._node_dims[src_t], self._node_dims[dst_t]),
-                out_channels=self.out_dim,
-                edge_dim=self._edge_dim,
-            ).to(ref_device)
-        self.convs = HeteroConv(convs, aggr="sum")
+        layers: list[HeteroConv] = []
+        for li in range(self.num_layers):
+            convs_li: Dict[Tuple[str, str, str], nn.Module] = {}
+            for et in edge_types_for_convs:
+                src_t, _, dst_t = et
+                in_src = self._node_dims[src_t] if li == 0 else self.out_dim
+                in_dst = self._node_dims[dst_t] if li == 0 else self.out_dim
+                convs_li[et] = TransformerConv(
+                    (in_src, in_dst),
+                    out_channels=self.out_dim,
+                    edge_dim=self._edge_dim,
+                ).to(ref_device)
+                
+            layers.append(HeteroConv(convs_li, aggr="sum"))
+            
+        self.layers = nn.ModuleList(layers)
         self._built = True
 
     def forward(self, batch: Batch, seed_info: Tuple[str, int] | None = None) -> torch.Tensor:
         if not self._built:
             self._build_layers(batch)
-        # Build edge_attr dict for HeteroConv (prompt or existing)
-        if self.use_edge_prompt:
-            assert self.edge_prompt_module is not None
-            edge_attr_dict = self.edge_prompt_module.get_edge_prompts(
-                batch.x_dict,
-                {et: batch[et].edge_index for et in batch.edge_types}
-            )
-        else:
-            edge_attr_dict = {et: batch[et].edge_attr for et in batch.edge_types}
-        out = self.convs(batch.x_dict, batch.edge_index_dict, edge_attr_dict=edge_attr_dict)
+        # Layered message passing with per-layer edge attributes.
+        x_dict_cur: Dict[str, torch.Tensor] = batch.x_dict
+        for conv in self.layers:
+            if self.use_edge_prompt:
+                assert self.edge_prompt_module is not None
+                edge_attr_dict = self.edge_prompt_module.get_edge_prompts(
+                    x_dict_cur,
+                    {et: batch[et].edge_index for et in batch.edge_types}
+                )
+            else:
+                edge_attr_dict = {et: batch[et].edge_attr for et in batch.edge_types}
+            x_dict_cur = conv(x_dict_cur, batch.edge_index_dict, edge_attr_dict=edge_attr_dict)
+        out = x_dict_cur
         if seed_info is not None:
             seed_type, seed_idx = seed_info
             if seed_type not in out:
@@ -274,12 +282,10 @@ class HeteroSubgraphEncoder(nn.Module):
             g = self.head(g)
             return F.normalize(g, dim=-1)
 
-
 def accuracy_from_logits(logits: torch.Tensor, y: torch.Tensor) -> float:
     with torch.no_grad():
         preds = (torch.sigmoid(logits) >= 0.5).float()
         return float((preds == y).float().mean().item())
-
 
 def train_one_epoch(model_txt: TextEncoder, model_gnn: HeteroSubgraphEncoder,
                     loader: DataLoader, optimizer: torch.optim.Optimizer, device: torch.device) -> Tuple[float, float]:
@@ -308,7 +314,6 @@ def train_one_epoch(model_txt: TextEncoder, model_gnn: HeteroSubgraphEncoder,
         total_acc += accuracy_from_logits(logits.detach(), y.detach())
     return total_loss / max(1, n_batches), total_acc / max(1, n_batches)
 
-
 @torch.no_grad()
 def evaluate(model_txt: TextEncoder, model_gnn: HeteroSubgraphEncoder,
              loader: DataLoader, device: torch.device) -> Tuple[float, float]:
@@ -328,7 +333,6 @@ def evaluate(model_txt: TextEncoder, model_gnn: HeteroSubgraphEncoder,
         total_loss += float(loss.item())
         total_acc += accuracy_from_logits(logits, y)
     return total_loss / max(1, n_batches), total_acc / max(1, n_batches)
-
 
 def main():
     ap = argparse.ArgumentParser()
@@ -353,9 +357,12 @@ def main():
     ap.add_argument("--rgcn-layers", type=int, default=2, help="Number of RGCN layers (if --gnn-arch rgcn)")
     ap.add_argument("--rgcn-mlp-layers", type=int, default=2, help="Number of MLP layers per RGCN layer")
     # EdgePrompt options
-    ap.add_argument("--use-edge-prompt", action="store_true", help="Enable EdgePrompt for hetero edges")
+    ap.add_argument("--use-edge-prompt", action="store_true", default=True, help="Enable EdgePrompt for hetero edges (default: enabled)")
+    ap.add_argument("--no-edge-prompt", action="store_false", dest="use_edge_prompt", help="Disable EdgePrompt for hetero edges")
     ap.add_argument("--edge-prompt-dim", type=int, default=256, help="EdgePrompt latent dimension")
     ap.add_argument("--edge-prompt-anchors", type=int, default=32, help="Number of EdgePrompt anchors per relation")
+    # TransformerConv depth
+    ap.add_argument("--transformer-layers", type=int, default=3, help="Number of TransformerConv layers (depth)")
     # Weights & Biases
     ap.add_argument("--wandb", action="store_true", help="Enable Weights & Biases logging")
     ap.add_argument("--wandb-project", default="gnn-retrieval", help="W&B project name")
@@ -388,15 +395,7 @@ def main():
     q0, hb0, y0 = next(iter(train_loader))
     # Models
     model_txt = TextEncoder(args.text_backend, args.sbert_model, args.clip_model, args.out_dim, finetune_text=args.finetune_text).to(device)
-    # if args.gnn_arch == "rgcn":
-    #     model_gnn = HeteroRGCNEncoder(
-    #         hidden_dim=args.out_dim,
-    #         out_dim=args.out_dim,
-    #         num_layers=args.rgcn_layers,
-    #         mlp_layers=args.rgcn_mlp_layers,
-    #         dropout=0.1
-    #     ).to(device)
-    # else:
+
     model_gnn = HeteroSubgraphEncoder(
             out_dim=args.out_dim,
             dropout=0.1,
@@ -404,7 +403,8 @@ def main():
             edge_prompt_dim=args.edge_prompt_dim,
             edge_prompt_anchors=args.edge_prompt_anchors,
             predefined_edge_types=all_edge_types,
-            predefined_node_dims=all_node_dims
+            predefined_node_dims=all_node_dims,
+            num_layers=args.transformer_layers
         ).to(device)
 
     optimizer = torch.optim.Adam(
@@ -412,6 +412,7 @@ def main():
          {"params": model_txt.parameters(), "lr": args.lr if args.finetune_text else args.lr * 0.1}],
         weight_decay=1e-4
     )
+    
     scheduler = None
     if args.scheduler == "step":
         scheduler = lr_scheduler.StepLR(optimizer, step_size=args.lr_step_size, gamma=args.lr_gamma)
@@ -441,6 +442,7 @@ def main():
             scheduler.step()
         cur_lr = optimizer.param_groups[0]["lr"]
         print(f"Epoch {epoch:03d} | lr {cur_lr:.6f} | train_loss {tr_loss:.4f} acc {tr_acc:.3f} | val_loss {va_loss:.4f} acc {va_acc:.3f}")
+        
         if wandb_run is not None:
             wandb.log({
                 "epoch": epoch,
@@ -451,6 +453,7 @@ def main():
                 "lr": cur_lr,
             }, step=epoch)
         # Save best by val_loss
+        
         if val_loader is not None and va_loss < best_val:
             best_val = va_loss
             torch.save({
@@ -480,7 +483,6 @@ def main():
         except Exception:
             pass
         wandb_run.finish()
-
 
 if __name__ == "__main__":
     main()
