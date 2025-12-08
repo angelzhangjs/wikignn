@@ -55,6 +55,7 @@ def set_seed(seed: int):
     random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
+    
 class HeteroEdgePromptPlus(nn.Module):
     """
     EdgePrompt for heterogeneous graphs:
@@ -121,6 +122,7 @@ class HeteroEdgePromptPlus(nn.Module):
             prompt = b @ self.anchor_prompt[key]  # [E, d]
             edge_attr_dict[et] = prompt
         return edge_attr_dict
+    
 class TextEncoder(nn.Module):
     def __init__(self, backend: str, sbert_model: str, clip_model: str, out_dim: int, finetune_text: bool = False):
         super().__init__()
@@ -168,6 +170,7 @@ class TextEncoder(nn.Module):
         # Ensure 't' is a regular tensor (not an inference-mode tensor) so autograd can save it for backward
         t = t.clone()
         return F.normalize(self.proj(t), dim=-1)
+    
 class HeteroSubgraphEncoder(nn.Module):
     """
     Hetero GNN that consumes node features x and edge_attr, and outputs a pooled subgraph embedding.
