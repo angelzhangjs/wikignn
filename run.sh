@@ -12,7 +12,7 @@ OUT_DIR="/home/ghr/angel/gnn/training_output"
 mkdir -p "$OUT_DIR"
 
 # 3) Run training with W&B enabled (test.jsonl used as validation)
-python3 -m retrieval.train_gnn_pairs \
+python3 -m train_gnn_pairs \
   --train "$TRAIN_JSONL" \
   --val "$VAL_JSONL" \
   --out "$OUT_DIR" \
