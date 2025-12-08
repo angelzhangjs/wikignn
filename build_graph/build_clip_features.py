@@ -40,6 +40,7 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--no_fetch_labels", action="store_true", help="Do not fetch property labels from Wikidata")
     return ap.parse_args()
 
+
 def iter_jsonl(path: str) -> Iterable[dict]:
     if not path or not os.path.isfile(path):
         return
@@ -80,7 +81,6 @@ def load_optional_labels(graph_dir: str) -> Dict[str, str]:
             labels[qid] = qid
     return labels
 
-
 def ensure_pyg(payload: Dict[str, object]) -> HeteroData:
     if "pyg_data" in payload and isinstance(payload["pyg_data"], HeteroData):  # type: ignore[arg-type]
         return payload["pyg_data"]  # type: ignore[return-value]
@@ -96,7 +96,6 @@ def ensure_pyg(payload: Dict[str, object]) -> HeteroData:
         data[(src_t, rel, dst_t)].edge_index = ei
     payload["pyg_data"] = data
     return data
-
 
 class ClipEncoder:
     def __init__(self, backend: str, model: str, pretrained: str, device: str, fp16: bool) -> None:
