@@ -3,5 +3,5 @@ wget-log
 wget-log
 *.pt
 wget-log
-training_output/best.pth
-training_output/last.pth
+training_output/*
+
