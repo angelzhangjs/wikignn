@@ -39,6 +39,5 @@ def main():
     print("Labels y shape:", tuple(y.shape), "dtype:", y.dtype)
     print("Sample queries (first 3):", queries[:3])
 
-
 if __name__ == "__main__":
     main()
