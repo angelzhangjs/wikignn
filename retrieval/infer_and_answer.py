@@ -13,7 +13,7 @@ import torch
 import torch.nn.functional as F
 from torch_geometric.data import Batch  # type: ignore
 
-from retrieval.train_gnn_pairs import TextEncoder, HeteroSubgraphEncoder  # reuse model defs
+from train_gnn import TextEncoder, HeteroSubgraphEncoder  # reuse model defs
 from retrieval.pairs_dataset import _load_subgraph
 try:
     from tqdm import tqdm  # type: ignore
