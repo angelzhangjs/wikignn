@@ -5,3 +5,15 @@ wget-log
 wget-log
 training_output/*
 
+wandb/
+*.wandb
+.nfs*
+training_output/
+*.pt
+*.pth
+wandb/
+*.wandb
+.nfs*
+training_output/
+*.pt
+*.pth
